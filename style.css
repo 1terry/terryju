@@ -12,9 +12,9 @@ body{
 	text-align: center;
 	position: relative;
 	top: 50%;
-	left: 50%;
-	transofrm: translate(-50%, -50%);
-	width: 10%;
+	left: 0%;
+	transofrm: translate(-0%, -50%);
+	width: 100%;
 }
 .container span{
 	color: white;
@@ -30,7 +30,7 @@ body{
 	letter--spacing: 8px;
 	margin-bottom: 20px;
 	background: black;
-	position: relative;
+	position: absolute;
 	animation: text 3s 1;
 }
 .text2{

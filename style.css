@@ -7,9 +7,7 @@
 }
 body{
 	background: #000;
-	
-}
-.container{
+	.container{
 	text-align: center;
 	position: absolute;
 	top: 50%;
@@ -22,6 +20,8 @@ body{
 	text-transform: uppercase;
 	display: block;
 }
+}
+
 
 #particles-js
 {

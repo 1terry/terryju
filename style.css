@@ -6,13 +6,7 @@
 	height: 100vh;
 }
 body{
-	background: #000;
 	
-}
-.container span{
-	color: white;
-	text-transform: uppercase;
-	display: block;
 }
 .container{
 	text-align: center;
@@ -22,6 +16,12 @@ body{
 	transofrm: translate(-50%, -50%);
 	width: 100%;
 }
+.container span{
+	color: white;
+	text-transform: uppercase;
+	display: block;
+}
+
 
 .text1{
 	color: white;

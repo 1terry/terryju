@@ -12,19 +12,19 @@ body{
 	background: #262626;
 }
 }
-/* .container{
+.container{
 	text-align: center;
 	position: relative;
 	top: 50%;
 	left: 0%;
 	transofrm: translate(-0%, -50%);
 	width: 100%;
-} */
-/* .container span{
+}
+.container span{
 	color: white;
 	text-transform: uppercase;
 	display: block;
-} */
+}
 
 
 .text1{

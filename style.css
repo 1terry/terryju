@@ -8,14 +8,14 @@
 body{
 	
 }
-.container{
+/* .container{
 	text-align: center;
 	position: relative;
 	top: 50%;
 	left: 0%;
 	transofrm: translate(-0%, -50%);
 	width: 100%;
-}
+} */
 .container span{
 	color: white;
 	text-transform: uppercase;

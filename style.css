@@ -53,5 +53,19 @@ body{
 .enter-button{
 	display: block;
 	text-align: center;
-	font-size: 1em;
-	
+	font-size: 2em;
+	text-decoration: none;
+	color: #adff2f;
+	opacity: 1;
+	margin-top: 30px;
+	transition: all 1s ease 3s;
+}
+
+.content-hidden .fly-in-text li { opacity: 0; }
+.content-hidden .fly-in-text li:nth-child(1) {transform: translate3d(-60px, 0, 0);}
+.content-hidden .fly-in-text li:nth-child(1) {transform: translate3d(-30px, 0, 0);}
+.content-hidden .fly-in-text li:nth-child(1) {transform: translate3d(0px, 0, 0);}
+.content-hidden .fly-in-text li:nth-child(1) {transform: translate3d(30px, 0, 0);}
+.content-hidden .fly-in-text li:nth-child(1) {transform: translate3d(60px, 0, 0);}
+
+

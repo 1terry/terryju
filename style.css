@@ -46,3 +46,12 @@ body{
 	transition: all 3s ease;
 }	
 
+.fly-in-text li:nth-child(5) {
+	margin-right: 0;
+}
+
+.enter-button{
+	display: block;
+	text-align: center;
+	font-size: 1em;
+	

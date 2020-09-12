@@ -2,18 +2,19 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family: sans-serif;
 }
+
 body{
-	background: #000;
+	font-family: Quicksand;
+	font-weight: 700;
 }
-.container{
-	text-align: center;
+.wrapper{
 	position: absolute;
 	top: 50%;
-	left: 0%;
-	transofrm: translate(-50%, -50%);
-	width: 100%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-weight: lighter;
+	font-size: 40px;
 }
 .container span{
 	color: white;

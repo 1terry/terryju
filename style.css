@@ -40,5 +40,9 @@ body{
 .fly-in-text li{
 	display: inline-block;
 	margin-right: 20px;
+	font-size: 5em;
+	color: #fff;
+	opacity: 1;
+	transition: all 3s ease;
 }	
 

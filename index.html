@@ -2,43 +2,16 @@
 <html>
   
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-sclale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Terry Ju</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is an awesome website">
+    <title>
+      Terry's Website
+    </title>
   </head>
   <body>
-    <div class ="wrapper">
-      <h1>Welcome to my site!</h1>
-      <h3> Development currently in progress <h3>  
-    </div>
-    <div class="welcome-section content-hidden">
-      <div class="content-wrap">
-        <ul class="fly-in-text">
-          <li>H</li>
-          <li>E</li>
-          <li>L</li>
-          <li>L</li>
-          <li>O</li>
-        </ul>
-        <a href="#" class="enter-button">ENTER</a>
-      </div>
-    </div>
-    <script type="text/javascript">
-      
-      $(function() {
-        var welcomeSection =$('.welcome-section'),
-            enterButton = welcomeSection.find('.enter-button');
-            setTimeout(function() {
-              welcomeSection.removeClass('content-hidden');
-            },800);
-            enterButton.on('click', function(e) {
-              e.preventDefault();
-              welcomeSection.addClass('content-hidden').fadeOut();
-            });
-        });
-    </script>
+    <h1> Terry Ju </h1>
+    <hr/>
+    <p> Welcome to my <i>site</i></p>
+    <p> I'm a second-year computer science student </p>
   </body>
 </html>

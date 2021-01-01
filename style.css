@@ -47,7 +47,7 @@ nav{
 	background-color: #242f3f;
 	display:flex;
 	justify-content: center;
-	alight-items: center;
+	align-items: center;
 }
 
 .loader {

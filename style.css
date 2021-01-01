@@ -37,14 +37,6 @@ nav{
 	font-weight: bold;
 	font-size: 14px;
 }
-body, html {
-    height: 100%;
-    text-align: center;
-}
-
-body {
-  background-color: #242F3F;
-}
 
 .loader-wrapper{
 	width: 100%; 

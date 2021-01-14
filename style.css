@@ -1,0 +1,248 @@
+.nav-bar {
+  overflow: hidden;
+  padding: 20px 10px;
+  border-radius: 10px;
+  padding-right: 2%;
+}
+
+.nav-bar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header-right a:hover {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+.nav-bar a.logo:hover {
+  color: blue;
+}
+
+/* Make sure that padding behaves as expected */
+* {
+  box-sizing: border-box;
+}
+.fullpage:-webkit-scrollbar {
+  overflow-y: scroll;
+  display: none;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Container for skill bars */
+.container {
+  width: 75%; /* Full width */
+  float: right;
+  padding-bottom: 2px;
+}
+
+.container p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+}
+
+.skills {
+  text-align: left; /* Right-align text */
+  padding-left: 10px;
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {
+  width: 90%;
+  background-color: #4caf50;
+} /* Green */
+.css {
+  width: 80%;
+  background-color: #2196f3;
+} /* Blue */
+.js {
+  width: 65%;
+  background-color: #f44336;
+} /* Red */
+.react {
+  width: 60%;
+  background-color: #808080;
+  margin-bottom: 50px;
+} /* Dark Grey */
+
+.intro {
+  padding-top: 1%;
+  background-color: gray;
+  float: right;
+  width: 70%;
+  margin-right: 20%;
+}
+/* May have to delete */
+/*.sidebar {
+  width: 20%;
+  position: fixed;
+  z-index: 1;
+  top: 18%;
+  left: 4%;
+  background: #eee;
+  overflow-x: hidden;
+}*/
+.logo {
+  font-size: 27px;
+  font-weight: bold;
+  font-family: Verdana;
+  float: left;
+  color: grey;
+  text-align: center;
+  text-decoration: none;
+  width: 25%;
+  margin-left: 5%;
+}
+.sidebar {
+  position: fixed;
+}
+
+.sidebar p {
+  margin: 2%;
+  padding: 1.5%;
+}
+
+.sidebar .subheader {
+  width: 25%;
+  margin-left: 5%;
+  text-align: center;
+  margin-bottom: 0%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0%;
+}
+
+.sidebar .subheader_bottom {
+  width: 25%;
+  margin-left: 5%;
+  text-align: center;
+  margin-bottom: 20%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.prof-pic {
+  margin-top: 1%;
+  margin-bottom: 2%;
+  width: 25%;
+  margin-left: 5%;
+  height: auto;
+  border-radius: 60%;
+  float: left;
+}
+
+.prof-pic:hover {
+  color: teal;
+  opacity: 80%;
+}
+
+.Welcome {
+  width: 61%;
+  margin-left: 25%;
+  padding-right: 15%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
+
+.info-box {
+  width: 75%;
+  margin-left: 25%;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  padding-right: 2%;
+}
+
+.typewriter {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 2.5s steps(35, end), blink-caret 0.8s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+.form-header {
+  width: 40%;
+  padding-right: 25%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.form {
+  width: 70%;
+  position: relative;
+  height: 50px;
+}
+
+.form input {
+  border: none;
+}
+
+.info-box .h1 {
+  padding-top: 50px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  /* box-shadow: inset 0 0 5px grey;*/
+  border-radius: 7px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 7px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(90, 88, 88);
+}

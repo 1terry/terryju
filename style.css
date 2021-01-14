@@ -110,6 +110,7 @@ li {
 }*/
 .logo {
   margin-top: 10%;
+  padding-top: 10%;
   font-size: 27px;
   font-weight: bold;
   font-family: Verdana;
@@ -167,6 +168,7 @@ li {
   padding-right: 15%;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 40px;
+  margin-top: 15%;
 }
 
 .info-box {

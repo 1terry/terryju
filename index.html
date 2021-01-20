@@ -1,26 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+     
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+     
+    </div>
+
     <head>   
         <title> Terry Ju </title>
+
+        <style> 
+            body { 
+                animation: fadeInAnimation ease 4s; 
+                animation-iteration-count: 1; 
+                animation-fill-mode: forwards; 
+            } 
+            @keyframes fadeInAnimation { 
+                0% { 
+                    opacity: 0; 
+                } 
+                100% { 
+                    opacity: 1; 
+                } 
+            } 
+        </style> 
+
         <meta name="description" content="Welcome to my website! Visit this site to learn more about me.">
         <meta charset="utf-8">
         <meta name="robots" content="index,follow">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="/img/smiley_icon_172891.ico">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet href= "/fullpage.min.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Potta+One&display=swap" rel="stylesheet">
         <link href="fullpage.min.css">
+        <script type="text/javascript" src="path-to-javascript-file.js"></script>
     </head>
 
     <body> 
         <!-- Nav bar -->
+        <div class='spinner-wrapper'>
+            <div class="spinner"></div>
+        </div>
+
         <div class="fullpage">
+
         <header class="nav-bar">
             <!-- Links on header -->
-            <nav class="header-right">
+            <nav class="header-right" class="bar-transform">
                 <ul>
                     <li><a href="about.html"> About me </a></li>
                     <li><a href="Resume.html"> Resume </a></li>
@@ -37,46 +69,53 @@
                 <ul>
                     <li><a class="logo" href=#default> Terry Ju </a></li>
                     <div class="subheader">
-                      <li><p><br><br> Second year student </p></li>
+                      <li><p><br><br> Comp sci Student </p></li>
                       <li><p> Western university</p></li>
                     </div>
                 </ul>
                 <a href="about.html">
-                    <img class="prof-pic" src="prof pic.jpg" alt="Profile picture">                 
+                    <img class="prof-pic" src="/img/prof pic.jpg" alt="Profile picture">                 
                 </a>
                <!--Put the images before-->
                 <div class="subheader_bottom"> <br> <br> <br> <br> <br> <br> 
                     <br> <br> <br> <br> <br> <br>
-                     <br> Github</a>
-                    <a><br>LinkedIn</a>
+                     <br> <a href="https://github.com/1terry" target="_blank" rel="noopener noreferrer">Github</a>
+                    <a href="https://www.linkedin.com/in/terry-ju/" target="_blank" rel="noopener noreferrer"><br>LinkedIn</a>
                 </div>
             </div>
 
-    <section class="Welcome">
+    <section class="Welcome" id="section1">
         <h1 class="typewriter">Welcome to My Website</h1>
-        
     </section>
-    <section class="section s1">
-        <h1 class="info-box"> Feel free to take a look at my website and reach out to me by filling the contact form. I'm still 
-            learning as I go and updating the site in VS code, so check back often for updates! 
-        </h1>
-    </section>
+
+        <section class="section s1" id="section1">
+            <h1 class="info-box"> Feel free to take a look at my website and reach out to me by filling the contact form. I'm still 
+                learning as I go, and I plan to constantly update the website in the future, so check back often! 
+            </h1>
+        </section>
     
-    <div class="container">
-        <p>HTML</p>
-        <div class="skills html">90%</div>
-        <p>CSS</p>
-        <div class="skills css">80%</div>
+        <div class="container">
+          <p>HTML</p>
+        <div class="skills html" class="bar-transform">90%</div>
+            <p>CSS</p>
+          <div class="skills css" class="bar-transform">80%</div>
 
-        <p>JavaScript</p>
-        <div class="skills js">65%</div>
+          <p>JavaScript</p>
+          <div class="skills js" class="bar-transform">65%</div>
 
-        <p>React</p>
-        <div class="skills react">60%</div>
-    </div>
+            <p>React</p>
+            <div class="skills react" class="bar-transform">60%</div>
+        </div>
 
-    <div class="info-box">
+        <!--        <div class="section-button">
+            <a href="about.html" class="button1">Courses</a>
+        </div>-->
+
+
+    <div class="info-box" id="section2">
        <h1>Relevant courses</h1>
+        <div class="courses-header"></div>
+
         <h3>First Year</h3>
         <ul>
             <li>
@@ -113,7 +152,26 @@
         <!-- <footer>
             <p> Site created in 2020 by Terry Ju </p>
         </footer> -->
-     </div>
+
+        <!-- <div class="main-content"></div> -->
+       
+
+        <script>
+            let spinnerWrapper = document.querySelector('.spinner-wrapper');
+            scrollTop = window.pageYOffset || document.documentElement.scrollTop; 
+            scrollLeft = window.pageXOffset || document.documentElement.scrollLeft, 
+  
+        // if any scroll is attempted, set this to the previous value 
+            window.onscroll = function() { 
+                window.scrollTo(scrollLeft, scrollTop); 
+            }; 
+            window.addEventListener('load', function(){
+
+                spinnerWrapper.style.display = 'none';
+                window.onscroll = function() {}; 
+            });
+        </script>
+    </div>
     </body>
 
    

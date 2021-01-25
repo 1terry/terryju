@@ -32,9 +32,9 @@
         <meta charset="utf-8">
         <meta name="robots" content="index,follow">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" href="img/smiley_icon_172891.ico">
+        <link rel="icon" href="/img/smiley_icon_172891.ico">
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet href= "fullpage.min.css">
+        <link rel="stylesheet href= "/fullpage.min.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Potta+One&display=swap" rel="stylesheet">
@@ -56,7 +56,6 @@
                 <ul>
                     <li><a href="about.html"> About me </a></li>
                     <li><a href="Resume.html"> Resume </a></li>
-                    <li><a> Projects </a> </li> 
                     <li><a href="Contact.html"> Contact </a></li>
                 </ul>
                 
@@ -68,13 +67,14 @@
             <div class="sidebar">
                 <ul>
                     <li><a class="logo" href="index.html"> Terry Ju </a></li>
+                   
                     <div class="subheader">
                       <li><p><br><br> Comp sci Student </p></li>
                       <li><p> Western university</p></li>
                     </div>
                 </ul>
                 <a href="about.html">
-                    <img class="prof-pic" src="prof pic.jpg" alt="Profile picture">                 
+                    <img class="prof-pic" src="prof pic.jpg" alt="Profile picture">  
                 </a>
                <!--Put the images before-->
                 <div class="subheader_bottom"> <br> <br> <br> <br> <br> <br> 
@@ -89,34 +89,39 @@
     </section>
 
         <section class="section s1" id="section1">
-            <h1 class="info-box"> Feel free to take a look at my website, but please note that it is incomplete as it's a work in progress. I'm still 
-                learning as I go, and I plan to constantly update the website in the future, so check back often! 
+            <h1 class="info-box"> Feel free to take a look at my website, but please note
+                that it is incomplete and still a work in progress. 
+                This site was created from scratch using HTML and CSS with more languages and content to be added,
+                check back often for updates! 
             </h1>
         </section>
     
-        <div class="container">
-          <p>HTML</p>
-        <div class="skills html" class="bar-transform">90%</div>
-            <p>CSS</p>
-          <div class="skills css" class="bar-transform">80%</div>
-
-          <p>JavaScript</p>
-          <div class="skills js" class="bar-transform">65%</div>
-
-            <p>React</p>
-            <div class="skills react" class="bar-transform">60%</div>
-        </div>
-
         <!--        <div class="section-button">
             <a href="about.html" class="button1">Courses</a>
         </div>-->
 
+    <!-- Projects bar -->
+    <h1 class="Welcome" class="projects-header">Projects</h1>
+        
+    <div class="projects-container">    
+        <!-- <div class="project-1"> </div> -->
+        <a href="https://www.figma.com/proto/NOGYTw7FKEc3HkpVhoA0mW/Prototype-Design-Sprint?node-id=1%3A2&scaling=scale-down"
+        target="_blank" rel="noopener noreferrer">
+        <img src="Eco-boost.png" class="project-1"></a>
+        <!-- <h3>Eco-boost</h3> -->
 
+        <a href="https://htn2021covid.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+        <img src="HTN project.png" class="project-2"></a>
+        <!-- <div class="project-2"</div> -->
+        <!-- <h3>COVID-19 Visualizer</h3> -->
+    </div>
+
+    <!-- Courses bar -->
+    <div class="courses-headerbar"></div>
     <div class="info-box" id="section2">
-       <h1>Relevant courses</h1>
-        <div class="courses-header"></div>
+       <h1 class="courses-header">Relevant courses</h1>
 
-        <h3>First Year</h3>
+        <h3><br>First Year</h3>
         <ul>
             <li>
                 CS 1033 <i>(Web design, photo-editing, animations)</i>
@@ -132,26 +137,36 @@
                 <br> CS 2212 <i>(Introduction to software engineering)</i>
                 <br> CS 2144 <i>(Discrete structures for computing)</i>
                 <br> STATS 2244 <i>(Stats and R)</i>
-                <br> BUS 2257 <i>(Accounting and Business Fundamentals)</i>
+                <br> BUS 2257 <i>(Accounting and Business Fundamentals)<br></i>
             </li>
         </ul>
     </div>
+    <div class=skills-section>  
+    <div class="skills-header" class="container">
+        <h1>Skills</h1>
+    </div>
+    <div class="skills-headbar"> </div>
+    <div class="container">
+        <p>HTML</p>
+      <div class="skills html" class="bar-transform" class="bars">90%</div>
+          <p><br>CSS</p>
+        <div class="skills css" class="bar-transform" class="bars">80%</div>
 
+        <p><br>JavaScript</p>
+        <div class="skills js" class="bar-transform" class="bars">65%</div>
+
+          <p><br>React</p>
+          <div class="skills react" class="bar-transform" class="bars">60%</div>
+          <p><br>Python</p>
+          <div class="skills react" class="bar-transform" class="bars">60%</div>
+          <p><br>Java</p>
+          <div class="skills react" class="bar-transform" class="bars">60%</div>
+      </div>
+    </div>
     </section> 
-
-        <section class="info-box" style="float: right;">
-            <br> <br> <br> <br> <br> <br>
-            <br> <br> <br> <br><br> <br> <br> <br> <br> <br>
-            <br> <br> <br> <br><br> <br> <br> <br> <br> <br>
-            <br> <br> <br> <br><br> <br> <br> <br> <br> <br>
-            <br> <br> <br> <br><br> <br> <br> <br> <br> <br>
-            <br> <br> <br> <br> Back to Top <br> Github</a>
-           <a><br>LinkedIn</a>
-        </section>
-
-        <!-- <footer>
-            <p> Site created in 2020 by Terry Ju </p>
-        </footer> -->
+        <footer class="footer">
+            <p> Site created, coded and designed by Terry Ju, 2020 </p>
+        </footer>
 
         <!-- <div class="main-content"></div> -->
        

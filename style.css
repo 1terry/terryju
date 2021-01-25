@@ -73,9 +73,12 @@ li {
 
 /* Container for skill bars */
 .container {
-  width: 75%; /* Full width */
+  width: 350px;
   float: right;
   padding-bottom: 2px;
+  position: relative;
+  top: -340px;
+  right: 40px;
 }
 
 .container p {
@@ -92,22 +95,42 @@ li {
 }
 
 .html {
-  width: 90%;
+  position: absolute;
+
+  width: 250px;
   background-color: #4caf50;
+  right: -27px;
+  margin-top: -40px;
 } /* Green */
 .css {
-  width: 80%;
+  position: absolute;
+
+  width: 230px;
   background-color: #2196f3;
+  right: -7px;
+  margin-top: -40px;
 } /* Blue */
 .js {
-  width: 65%;
+  position: absolute;
+
+  width: 110px;
   background-color: #f44336;
+  right: 113px;
+  margin-top: -40px;
 } /* Red */
 .react {
-  width: 60%;
+  position: absolute;
+  width: 200px;
   background-color: #808080;
-  margin-bottom: 50px;
+  right: 23px;
+  margin-top: -40px;
 } /* Dark Grey */
+
+/* .java {
+}
+
+.python {
+} */
 
 .intro {
   padding-top: 1%;
@@ -139,6 +162,7 @@ li {
 }
 .sidebar {
   position: fixed;
+  top: 20%;
 }
 
 .sidebar p {
@@ -174,8 +198,9 @@ li {
 }
 
 .prof-pic:hover {
-  color: teal;
+  background: teal;
   opacity: 80%;
+  transition: 0.5s ease;
 }
 
 .Welcome {
@@ -187,7 +212,7 @@ li {
 }
 
 .info-box {
-  width: 75%;
+  /* width: 75%; */
   margin-left: 25%;
   font-size: 18px;
   font-family: sans-serif;
@@ -362,12 +387,13 @@ a.button1:hover {
   background-size: cover;
 }
 
-.courses-header {
+.courses-headerbar {
   position: relative;
   background: lightblue;
   width: 240px;
   height: 10px;
-  top: -12px;
+  top: 70px;
+  left: 25%;
 }
 
 @keyframes slideInFromLeft {
@@ -380,10 +406,13 @@ a.button1:hover {
 }
 
 bar-transform {
-  /* This section calls the slideInFromLeft animation we defined above */
   animation: 10s ease-out 0s 1 slideInFromLeft;
   background: #333;
   padding: 30px;
+}
+
+.skills {
+  float: right;
 }
 
 .resume {
@@ -393,4 +422,85 @@ bar-transform {
 
 .resume-header {
   font-size: 20px;
+}
+
+#section2 {
+  position: relative;
+  left: 0px;
+}
+
+.projects-container {
+  width: 1000px;
+  height: 450px;
+  position: relative;
+  left: 25%;
+  background-color: transparent;
+}
+
+.footer {
+  position: relative;
+  top: 250px;
+  left: 43%;
+  margin-right: 45%;
+  padding-bottom: 0px;
+}
+.contact-header {
+  width: 1100px;
+  margin-left: 25%;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-right: 290px;
+  font-size: 28.5px;
+}
+
+.skills-header {
+  position: relative;
+  right: 510px;
+  top: -442.5px;
+  float: right;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+.skills-headbar {
+  position: relative;
+  background: lightblue;
+  width: 120px;
+  height: 10px;
+  top: -385px;
+  right: 390px;
+  float: right;
+}
+
+.projects-header {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  position: absolute;
+  left: 25%;
+}
+
+.project-1 {
+  width: auto;
+  height: 450px;
+  background-color: black;
+  position: absolute;
+}
+
+.project-2 {
+  width: auto;
+  height: 450px;
+  background-color: blue;
+  position: absolute;
+  top: 0px;
+  left: 500px;
+}
+
+.project-1:hover {
+  background-color: blue;
+  opacity: 70%;
+}
+
+.project-2:hover {
+  background-color: blue;
+  opacity: 70%;
 }

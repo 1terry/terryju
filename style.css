@@ -1,6 +1,7 @@
 body {
   padding: 0;
   margin: 0;
+  height: 1500px; /* Used to enable scrolling */
 }
 
 .nav-bar {
@@ -91,14 +92,14 @@ li {
   padding-left: 10px;
   padding-top: 10px; /* Add top padding */
   padding-bottom: 10px; /* Add bottom padding */
-  color: white; /* White text color */
+  color: rgb(143, 5, 138); /* White text color */
 }
 
 .html {
   position: absolute;
 
   width: 250px;
-  background-color: #4caf50;
+  background-color: #f7c364;
   right: -27px;
   margin-top: -40px;
 } /* Green */
@@ -106,39 +107,39 @@ li {
   position: absolute;
 
   width: 230px;
-  background-color: #2196f3;
+  background-color: #f7c364;
   right: -7px;
   margin-top: -40px;
 } /* Blue */
 .js {
   position: absolute;
 
-  width: 110px;
-  background-color: #f44336;
-  right: 113px;
+  width: 170px;
+  background-color: #f7c364;
+  right: 53px;
   margin-top: -40px;
 } /* Red */
 .react {
   position: absolute;
-  width: 200px;
-  background-color: #808080;
-  right: 23px;
+  width: 160px;
+  background-color: #f7c364;
+  right: 63px;
   margin-top: -40px;
 } /* Dark Grey */
 
 .java {
   position: absolute;
-  width: 2400px;
-  background-color: #3779db;
-  right: 23px;
+  width: 230px;
+  background-color: #f7c364;
+  right: -7px;
   margin-top: -40px;
 }
 
 .python {
   position: absolute;
-  width: 240px;
-  background-color: #5ad421;
-  right: 23px;
+  width: 230px;
+  background-color: #f7c364;
+  right: -7px;
   margin-top: -40px;
 }
 

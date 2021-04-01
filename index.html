@@ -91,9 +91,10 @@
     </section>
 
         <section class="section s1" id="section1">
-            <h1 class="info-box"> Feel free to take a look at my website, but please note
+            <h1 class="intro-anim1">  
+                Feel free to take a look at my website, but please note
                 that it is incomplete and still a work in progress. 
-                This site was created from scratch using HTML and CSS with more languages and content to be added,
+                This site was created from scratch using HTML, CSS & Javascript with more languages and content to be added,
                 check back often for updates! 
             </h1>
         </section>
@@ -103,8 +104,10 @@
         </div>-->
 
     <!-- Projects bar -->
-    <h1 class="Welcome" class="projects-header">Projects</h1>
+    <h1 class="projects-header">Projects</h1>
         
+
+    <! -- https://www.jqueryscript.net/slider/Responsive-Horizontal-Image-Slider-with-jQuery-CSS3.html -->
     <div class="projects-container">    
         <!-- <div class="project-1"> </div> -->
         <a href="https://www.figma.com/proto/NOGYTw7FKEc3HkpVhoA0mW/Prototype-Design-Sprint?node-id=1%3A2&scaling=scale-down"
@@ -120,9 +123,11 @@
 
     <!-- Courses bar -->
     <div class="courses-headerbar"></div>
+    
+    <div class="courses-header">
+        <h1>Relevant courses</h1>
+    </div>  
     <div class="info-box" id="section2">
-       <h1 class="courses-header">Relevant courses</h1>
-
         <h3><br>First Year</h3>
         <ul>
             <li>
@@ -143,28 +148,30 @@
             </li>
         </ul>
     </div>
+    
     <div class=skills-section>  
-    <div class="skills-header" class="container">
-        <h1>Skills</h1>
-    </div>
-    <div class="skills-headbar"> </div>
-    <div class="container">
-        <p>HTML</p>
-      <div class="skills html" class="bar-transform" class="bars">90%</div>
-          <p><br>CSS</p>
-        <div class="skills css" class="bar-transform" class="bars">80%</div>
+        <div class="skills-header" class="container">
+            <h1>Skills</h1>
+        </div>
+        <div class="skills-headbar"> </div>
+        <div class="container">
+            <p>HTML</p>
+            <div class="skills html" class="bar-transform" class="bars">90%</div>
+            <p><br>CSS</p>
+            <div class="skills css" class="bar-transform" class="bars">80%</div>
 
-        <p><br>JavaScript</p>
-        <div class="skills js" class="bar-transform" class="bars">65%</div>
+            <p><br>JavaScript</p>
+            <div class="skills js" class="bar-transform" class="bars">65%</div>
 
-          <p><br>React</p>
-          <div class="skills react" class="bar-transform" class="bars">60%</div>
-          <p><br>Python</p>
-          <div class="skills python" class="bar-transform" class="bars">80%</div>
-          <p><br>Java</p>
-          <div class="skills java" class="bar-transform" class="bars">80%</div>
-      </div>
+             <p><br>React</p>
+              <div class="skills react" class="bar-transform" class="bars">60%</div>
+             <p><br>Python</p>
+             <div class="skills python" class="bar-transform" class="bars">80%</div>
+             <p><br>Java</p>
+              <div class="skills java" class="bar-transform" class="bars">80%</div>
+        </div>
     </div>
+
     </section> 
         <footer class="footer">
             <p> Site created, coded and designed by Terry Ju, 2020 </p>
@@ -188,6 +195,23 @@
                 window.onscroll = function() {}; 
             });
         </script>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script>
+
+            ScrollReveal().reveal('.section2', { delay: 2100 });
+           
+            
+            // Courses info then skills bar 
+            ScrollReveal().reveal('.courses-headerbar', { delay: 400 });
+            ScrollReveal().reveal('.courses-header', { delay: 400 });
+            ScrollReveal().reveal('.info-box', { delay: 1400 });
+
+            ScrollReveal().reveal('.skills-header', { delay: 2000 });
+            ScrollReveal().reveal('.skills-headbar', { delay: 2000 });
+            ScrollReveal().reveal('.container', { delay: 2800 });
+
+            
+	    </script>
     </div>
     </body>
 

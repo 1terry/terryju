@@ -39,12 +39,16 @@ body {
 }
 
 .header-right a:hover {
-  background-color: dodgerblue;
+  background-color: orange;
   color: white;
 }
 
 .header-right {
   float: right;
+}
+
+.header-right a{
+  color: orange;
 }
 
 ul {
@@ -218,6 +222,7 @@ li {
   font-family: Arial, Helvetica, sans-serif;
   padding-right: 290px;
   font-size: 40px;
+  color: orange;
 }
 
 .info-box {
@@ -348,7 +353,7 @@ a.button1:hover {
 .spinner-wrapper {
   width: 100%;
   height: 100%;
-  background-color: #151515;
+  background-color: white;
   position: absolute;
   top: 0;
   left: 0;
@@ -383,7 +388,7 @@ a.button1:hover {
 .spinner:after {
   width: 90%;
   height: 90%;
-  background-color: #151515;
+  background-color: white;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -395,13 +400,17 @@ a.button1:hover {
   }
 }
 
-/*Simulate page content*/
+/*Simulate page content, can remove if stuff starts bugging up*/
 .main-content {
   width: 100%;
   height: 100vh;
-  background: url("https://source.unsplash.com/random/3000x3000") center
+  background: url("https://source.unsplash.com/random/1400x1400") center
     no-repeat;
   background-size: cover;
+  opacity: 0%;
+  top:-700px;
+  right: 3000px;
+  position: absolute;
 }
 
 .courses-headerbar {
@@ -419,6 +428,7 @@ a.button1:hover {
   font-family: sans-serif;
   font-weight: lighter;
   padding-right: 2%;
+  color: orange;
 }
 
 @keyframes slideInFromLeft {
@@ -485,6 +495,7 @@ bar-transform {
   font-size: 18px;
   font-family: sans-serif;
   font-weight: lighter;
+  color: orange;
 }
 
 .skills-headbar {
@@ -508,6 +519,7 @@ bar-transform {
   margin-bottom: 0;
   position: relative;
   left: 25%;
+  color: orange;
 }
 
 .project-1 {
@@ -545,8 +557,9 @@ bar-transform {
   top: -28%;
   left: -68.5%;
   width: 100%;
+  opacity: 75%;
   object-fit: cover;
-  opacity: 55%;
+  color-adjust: orange;
 }
 
 .skills-section{

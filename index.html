@@ -12,22 +12,6 @@
     <head>   
         <title> Terry Ju </title>
 
-        <style> 
-            body { 
-                animation: fadeInAnimation ease 4s; 
-                animation-iteration-count: 1; 
-                animation-fill-mode: forwards; 
-            } 
-            @keyframes fadeInAnimation { 
-                0% { 
-                    opacity: 0; 
-                } 
-                100% { 
-                    opacity: 1; 
-                } 
-            } 
-        </style> 
-
         <meta name="description" content="Welcome to my website! Visit this site to learn more about me.">
         <meta charset="utf-8">
         <meta name="robots" content="index,follow">
@@ -47,6 +31,22 @@
         <div class='spinner-wrapper'>
             <div class="spinner"></div>
         </div>
+
+         <!--   <style> 
+            body { 
+                animation: fadeInAnimation ease 4s; 
+                animation-iteration-count: 1; 
+                animation-fill-mode: forwards; 
+            } 
+            @keyframes fadeInAnimation { 
+                0% { 
+                    opacity: 0; 
+                } 
+                100% { 
+                    opacity: 1; 
+                } 
+            } 
+        </style>  -->
 
         <div class="fullpage">
 
@@ -177,7 +177,7 @@
             <p> Site created, coded and designed by Terry Ju, 2020 </p>
         </footer>
 
-        <!-- <div class="main-content"></div> -->
+        <div class="main-content"></div>
        
 
         <script>
@@ -193,13 +193,13 @@
 
                 spinnerWrapper.style.display = 'none';
                 window.onscroll = function() {}; 
+                
             });
         </script>
         <script src="https://unpkg.com/scrollreveal"></script>
         <script>
 
-            ScrollReveal().reveal('.section2', { delay: 2100 });
-           
+            ScrollReveal().reveal('.section2', { delay: 2100 });           
             
             // Courses info then skills bar 
             ScrollReveal().reveal('.courses-headerbar', { delay: 400 });

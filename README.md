@@ -1,6 +1,4 @@
 # terryju
 Welcome to my website!
 
-Development currently in progress. I coded this website from scratch without a template, using self-taught CSS and HTML. 
-
-Also, please ignore the mess of files, I will clean the repository up as I continue developing the website.
+This is the first website I've made. I've updated my website using the Angular framework, and I am continuing to update the site on my Portfolio Repo, so check that out!
